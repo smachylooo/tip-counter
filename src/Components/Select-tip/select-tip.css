@@ -1,0 +1,43 @@
+.select-content{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: grid;
+    color: #7b8a8f;
+}
+
+.row-of-card{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card{
+    padding: 12px 0px;
+    width: 100px;
+    margin: 5px 0;
+    background-color: #00474b;
+    border: 0;
+    color: #fff;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.card:not(
+    .card:nth-child(1),
+    .card:nth-child(3),
+    .card:nth-child(4),
+    .card:nth-child(6)
+){
+    margin: 0 19px;
+}
+
+
+.crad-in{
+    background-color: #f3f8f9;
+    color: #5c7574;
+    padding: 12px 5px;
+    text-align: right;
+}
+
+.chosen-tip{
+    background-color: aquamarine;
+}

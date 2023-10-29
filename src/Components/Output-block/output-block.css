@@ -1,0 +1,26 @@
+.wapper-output{
+    height: 100%;
+    padding: 35px;
+    background-color: #00474b;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.total-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-content:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.total-content p span{
+    color: #60959b;
+    font-size: 12px;
+}
+
+.filanCount{
+    color: #20c4ac;
+    font-size: 45px;
+}

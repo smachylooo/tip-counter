@@ -1,0 +1,33 @@
+.bill-content{
+    color: #7b8a8f;
+}
+
+
+.input-content{
+    margin-top: 8px;
+    position: relative;
+    font-size: 25px;
+    color: #a5bfbd;
+}
+
+.currency-code{
+    position: absolute;
+    left: 8px;
+    top: 10px;
+}
+
+.input-content input{
+    width: 100%;
+    padding: 8px;
+    text-align: right;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #f3f8fa;
+    color: #a5bfbd;
+    border: 0px;
+    transition: .3s;
+}
+
+/* .bill-content input::after{
+    outline: #5ea99f;
+} */
